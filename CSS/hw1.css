@@ -1,123 +1,125 @@
-body{
-	margin: 25px 25px 100px 25px;
-	padding: 2px 20px 100px 20px;
-	font-size: 20px;
+body {
+    margin: 25px 25px 100px 25px;
+    padding: 2px 20px 100px 20px;
+    font-size: 20px;
 }
 
-header{
-	background: #A3F3D3;
-	background-image: url("file:///C:/Users/Etulan/Desktop/css/image/Flywheel.jpg");
-	background-size: cover;
-	padding: 25px 20px 15px 20px;
-	background-color: #000085;
+header {
+    background: #A3F3D3;
+    background-image: url("/Images/Flywheel.jpg");
+    background-size: cover;
+    padding: 25px 20px 15px 20px;
+    background-color: #000085;
 }
 
-h1{
-	color: #ffffdf;
-	font-variant: small-caps;
-	text-align: center;
-	font-size: 45px;
-	font-family: Arial, verdana, "Times New Roman";
+h1 {
+    color: #ffffdf;
+    font-variant: small-caps;
+    text-align: center;
+    font-size: 45px;
+    font-family: Arial, verdana, "Times New Roman";
 }
 
-
-nav a { /*This is the styling for the nav links*/
-  background-color: #009975;
-  color: #c51800;
-  margin: 30px 50px 30px 70px;
-  padding: 20px 25px;
-  width: 10%;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  opacity: 0.8;
-  border: 2px;
-  border-radius: 20px;
+nav a {
+    /*This is the styling for the nav links*/
+    background-color: #009975;
+    color: #c51800;
+    margin: 30px 50px 30px 70px;
+    padding: 20px 25px;
+    width: 10%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    opacity: 0.8;
+    border: 2px;
+    border-radius: 20px;
 }
 
-.active { /*This is the active link class*/
-	background: #00ff46;
-	text-decoration: none;
-	opacity: 1;
+.active {
+    /*This is the active link class*/
+    background: #00ff46;
+    text-decoration: none;
+    opacity: 1;
 }
 
-h2{
-	color: #ff5c00;
-	font-variant: small-caps;
+h2 {
+    color: #ff5c00;
+    font-variant: small-caps;
 }
 
 img {
-	display: block;
-	width: 10vw;
-	border: 3px solid #000000;
-	margin: 50px auto; /*Centers the image and puts vertical space*/
+    display: block;
+    width: 10vw;
+    border: 3px solid #000000;
+    margin: 50px auto;
+    /*Centers the image and puts vertical space*/
 }
 
 .left {
-	background: #546500;
-	width: 15%;
-	float: left;
-	height: 115vh;
+    background: #546500;
+    width: 15%;
+    float: left;
+    height: 115vh;
 }
 
 .right {
-	width: 84%;
-	float: right;
+    width: 84%;
+    float: right;
 }
 
-table{
-	border-collapse: separate;
-	border-spacing: 1px;
-	font-family: Arial, verdana, "Times New Roman";
-	font-size: 17px;
-	font-weight: bold;
-	line-height: 1.6;
-	width: 75%;
-	margin: auto;
+table {
+    border-collapse: separate;
+    border-spacing: 1px;
+    font-family: Arial, verdana, "Times New Roman";
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 1.6;
+    width: 75%;
+    margin: auto;
 }
 
 td {
-	border: 1px solid #cecfd5;
-	padding: 10px 15px;
+    border: 1px solid #cecfd5;
+    padding: 10px 15px;
 }
 
 td:nth-child(odd) {
-	background: #ccac33;
+    background: #ccac33;
 }
 
 td:nth-child(even) {
-	background: #CDBB79;
+    background: #CDBB79;
 }
 
-th{
-	background: #003800;
-	background: -moz-linear-gradient(top, #003800 0%, #00ff00 100%);
-	background: -webkit-linear-gradient(#003800 0%, #00ff00 100%);
-	background: -o-linear-gradient(#003800 0%, #00ff00 100%);
-	background: linear-gradient(#003800 0%, #00ff00 100%); 
-	border: 1px solid #ff5c00;
-	border-bottom-width: 4px;
-	border-top-right-radius: 10px;
-	border-top-left-radius: 10px;
-	padding: 10px 15px;
+th {
+    background: #003800;
+    background: -moz-linear-gradient(top, #003800 0%, #00ff00 100%);
+    background: -webkit-linear-gradient(#003800 0%, #00ff00 100%);
+    background: -o-linear-gradient(#003800 0%, #00ff00 100%);
+    background: linear-gradient(#003800 0%, #00ff00 100%);
+    border: 1px solid #ff5c00;
+    border-bottom-width: 4px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 10px 15px;
 }
 
 tr {
-	opacity: 0.7;
+    opacity: 0.7;
 }
 
 tr:hover {
-	opacity: 1;
+    opacity: 1;
 }
 
 th:first-child {
-	text-align: left
+    text-align: left
 }
 
 td:nth-child(2) {
-	text-align: center;
+    text-align: center;
 }
 
 td:last-child {
-	text-align: center;
+    text-align: center;
 }
